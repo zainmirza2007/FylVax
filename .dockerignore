@@ -1,0 +1,8 @@
+.env
+tmp
+.git
+*.zip
+node_modules/
+__pycache__/
+*.pyc
+audit/

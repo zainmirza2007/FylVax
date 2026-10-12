@@ -1,0 +1,2 @@
+Simple plain text document for conversion testing.
+Second line.

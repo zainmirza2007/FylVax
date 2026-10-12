@@ -1,0 +1,8 @@
+.env
+node_modules/
+*.zip
+.DS_Store
+__pycache__/
+*.pyc
+tmp/
+audit/

@@ -1,0 +1,18 @@
+{
+  "name": "fylvex-production",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Production-focused, AdSense-first, SEO-friendly file converter and compressor platform",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js",
+    "test": "bash tests/test-all.sh",
+    "test:formats": "bash tests/test-format-matrix.sh",
+    "doctor": "node scripts/doctor.js",
+    "test:broad": "bash tests/test-broad-modules.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

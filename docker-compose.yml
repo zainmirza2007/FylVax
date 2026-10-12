@@ -1,0 +1,10 @@
+services:
+  fylvex:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    restart: unless-stopped
+    tmpfs:
+      - /tmp:size=2g,mode=1777
